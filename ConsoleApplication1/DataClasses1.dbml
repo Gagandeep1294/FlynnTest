@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FlynnPracticalTest" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ec2amaz-gh;Initial Catalog=FlynnPracticalTest;Integrated Security=True" SettingsObjectName="ConsoleApplication1.Properties.Settings" SettingsPropertyName="FlynnPracticalTestConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Table_1" Member="Table_1s">
+    <Type Name="Table_1">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Code" Type="System.String" DbType="Char(2)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Table_2" Member="Table_2s">
+    <Type Name="Table_2">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
